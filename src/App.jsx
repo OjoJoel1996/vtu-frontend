@@ -8,7 +8,7 @@ function App() {
     <main>
  <header>
   
-  <img src='../public/Logo.png' width={70}/>
+  <img src='/Logo.png' width={70}/>
 
   <nav>
     <ul>
@@ -45,7 +45,7 @@ function App() {
 
       {/* Left: Image */}
       <div className="hero-image">
-  <img src="../public/heroImage.png" alt="Tada VTU services" width={500}  />
+  <img src="/heroImage.png" alt="Tada VTU services" width={500}  />
 
       </div>
  </section>
