@@ -83,3 +83,22 @@ header{
   background-color: #2563eb;
   color: #ffffff;
 }
+
+.price{
+  display: flex;
+  justify-content: space-between;
+
+}
+.price > div {
+background: #cccc;
+font-size: large;
+font-weight: 60px;
+font-family: Arial, Helvetica, sans-serif;
+border-color: orange;
+border-radius: 15px;
+width: 250px;
+height: 220px;
+text-align: center;
+
+}
+

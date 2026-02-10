@@ -50,6 +50,36 @@ function App() {
       </div>
  </section>
 
+ <section className='box'>
+  <div>
+  <h2>Affordable Data Plans</h2>
+  <p>Choose from the best data deal available for your network</p>
+  </div>
+
+  <div className='price'>
+  <div>
+      <h2>MTN DATA</h2>
+      <p>1gb for 30day =# 550</p>
+      <p>1gb for 30day =# 550</p>
+      <p>1gb for 30day =# 550</p>
+    </div>
+
+     <div>
+      <h2>GLO DATA</h2>
+      <p>1gb for 30day =# 550</p>
+      <p>1gb for 30day =# 550</p>
+      <p>1gb for 30day =# 550</p>
+    </div>
+ <div>
+      <h2>AIRTEL DATA</h2>
+      <p>1gb for 30day = # 550</p>
+      <p>1gb for 30day = # 550</p>
+      <p>1gb for 30day =# 550</p>
+    </div>
+    </div>
+  
+ </section>
+
     </main>
   )
 }
