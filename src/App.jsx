@@ -51,8 +51,8 @@ function App() {
  </section>
 
  <section className='box'>
-  <div>
-  <h2>Affordable Data Plans</h2>
+  <div id='price-header'>
+  <h1>Affordable Data Plans</h1>
   <p>Choose from the best data deal available for your network</p>
   </div>
 
@@ -78,6 +78,41 @@ function App() {
     </div>
     </div>
   
+ </section>
+
+ <section className='button'>
+  <div className='input'>
+    <h1>Ready to Get Started?</h1>
+    <p>Create an account in seconds and enjoy seamless data recharges </p>
+    <button>Join Now</button>
+  </div>
+
+ </section>
+
+ <section className='customers'>
+  <div id='data'>
+<h1>What Our Customers Say</h1>
+<p>Don't take our word for it- here's what our customer have to say.</p>
+  </div>
+
+  <div id='say'>
+  <div>
+    <p>"Customers support was amazing when i had an issue".</p>
+    <h1>Emmanuel.O</h1>
+  </div>
+
+  <div>
+    <p>"Cheapest airtime bundles.
+      I have ever seen online"</p>
+    <h1>Juliet.U</h1>
+  </div>
+
+  <div>
+    <p>Fast and reliable data recharge, i use it every week!</p>
+    <h1>Adisa.A</h1>
+  </div>
+
+  </div>
  </section>
 
     </main>
