@@ -1,0 +1,57 @@
+import { useState } from 'react'
+import './App.css'
+
+function App() {
+
+
+  return (
+    <main>
+ <header>
+  
+  <img src='../public/Logo.png' width={70}/>
+
+  <nav>
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact Us</li>
+      <li>Create Account</li>
+      <li>Terms Of Service</li>
+      <li>Privacy Policy</li>
+    </ul>
+  </nav>
+<button className="btn secondary">Login</button>
+ </header>
+
+ <section className='hero'>
+  <div className="hero-text">
+      <h1>
+        Fast, Reliable VTU Services <br />
+        <span>— Anytime, Anywhere</span>
+      </h1>
+
+      <p>
+        Buy airtime, data, pay TV and electricity bills instantly on
+        <strong> Tada</strong>.
+        <br />
+        No stress. No delays. Just seamless transactions.
+      </p>
+
+      <div className="hero-buttons">
+        <button className="btn primary">Get Started</button>
+        <button className="btn secondary">Login</button>
+      </div>
+</div>
+
+      {/* Left: Image */}
+      <div className="hero-image">
+  <img src="../public/heroImage.png" alt="Tada VTU services" width={500}  />
+
+      </div>
+ </section>
+
+    </main>
+  )
+}
+
+export default App
