@@ -101,13 +101,13 @@ function App() {
     <h1>Emmanuel.O</h1>
   </div>
 
-  <div>
+  <div id='saying'>
     <p>"Cheapest airtime bundles.
       I have ever seen online"</p>
     <h1>Juliet.U</h1>
   </div>
 
-  <div>
+  <div id='said'>
     <p>Fast and reliable data recharge, i use it every week!</p>
     <h1>Adisa.A</h1>
   </div>
@@ -115,6 +115,25 @@ function App() {
   </div>
  </section>
 
+<section className='footing'>
+  
+  <div id='foot'>
+  <h1>Links</h1>
+  <p>Home</p>
+  <p>Pricing</p>
+  <p>Support</p>
+  </div>
+
+  <div id='booking'>
+  <h1>Contact</h1>
+  <p>EmailData@gmail.com</p>
+  <p>+2349133470173</p>
+  </div>
+
+<footer>
+  <p>JoeTech  Web Design Copyright&copy2026</p>
+</footer>
+</section>
     </main>
   )
 }
